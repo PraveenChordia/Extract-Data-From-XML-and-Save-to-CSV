@@ -1,0 +1,12 @@
+Starting Process
+Changed Directory to tmp
+Starting new HTTPS connection (1): registers.esma.europa.eu:443
+https://registers.esma.europa.eu:443 "GET /solr/esma_registers_firds_files/select?q=*&fq=publication_date:%5B2021-01-17T00:00:00Z+TO+2021-01-19T23:59:59Z%5D&wt=xml&indent=true&start=0&rows=100 HTTP/1.1" 200 None
+Downloaded XML File: xml-file-with-download-link.xml
+Starting new HTTP connection (1): firds.esma.europa.eu:80
+http://firds.esma.europa.eu:80 "GET /firds/DLTINS_20210117_01of01.zip HTTP/1.1" 200 4434514
+Downloaded and Extracted the Zip File Containing the Data: DLTINS_20210117_01of01.xml
+Data Extracted
+Created CSV File: DLTINS_20210117_01of01.csv, Ready for uploading to S3
+File Uploaded to S3
+Finished Processing
